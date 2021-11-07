@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="Matrix.cu">
+      <Filter>Utils</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Shape.cu">
+      <Filter>Utils</Filter>
+    </CudaCompile>
+    <CudaCompile Include="BCECost.cu">
+      <Filter>Utils</Filter>
+    </CudaCompile>
+    <CudaCompile Include="LinearLayer.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="ReluActivation.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="SigmoidActivation.cu">
+      <Filter>Layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CoordinatesDataset.cu" />
+    <CudaCompile Include="NeuralNetwork.cu" />
+    <CudaCompile Include="Main.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{c40eddaf-1c61-4d3f-af0f-81ba0db96553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layers">
+      <UniqueIdentifier>{931a5339-aa73-4788-a2e0-0a8eb1007752}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix.cuh">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.cuh">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NNException.cuh">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BCECost.cuh">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearLayer.cuh">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="NNLayer.cuh">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="ReluActivation.cuh">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="SigmoidActivation.cuh">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinatesDataset.cuh" />
+    <ClInclude Include="NeuralNetwork.cuh" />
+  </ItemGroup>
+</Project>
